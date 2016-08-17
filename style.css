@@ -1,0 +1,373 @@
+/**
+ * Remove default margin.
+ */
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lucida Grande",Arial,Helvetica,sans-serif;
+  color: #ababab; }
+
+a, img {
+  border: none; }
+
+ul {
+  list-style: none;
+  left: 150px; }
+
+p {
+  font-size: 20px;
+  line-height: 24px; }
+
+a {
+  text-decoration: none; }
+
+h1, h2, h3, h4 {
+  font-family: "Open Sans",Arial,Helvetica,sans-serif;
+  margin: 0;
+  font-weight: 300; }
+
+h2 {
+  font-size: 32px;
+  line-height: 40px !important;
+  color: #EEE; }
+
+h3 {
+  font-size: 22px;
+  line-height: 20px !important;
+  color: #FFF;
+  letter-spacing: 0.12em;
+  text-transform: capitalize; }
+
+h4 {
+  font-size: 20px; }
+
+.fr {
+  float: right; }
+
+.fl {
+  float: left; }
+
+.divider {
+  border-top: 1px solid #dcdcdc;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 1230px;
+  margin: 0px auto; }
+
+.header {
+  width: 100%;
+  min-height: 100px;
+  position: fixed;
+  top: 0;
+  z-index: 998;
+  background: black;
+  height: 100px;
+  color: #FFF;
+  padding-left: 20px; }
+
+.logo {
+  color: #FFF;
+  letter-spacing: 2px;
+  font-size: 20px;
+  text-decoration: none;
+  position: absolute;
+  z-index: 1;
+  top: 5px; }
+
+.navigation {
+  position: absolute;
+  display: block !important;
+  width: 100%;
+  height: inherit;
+  text-align: left;
+  padding-left: 260px;
+  top: 20px; }
+
+.navigation li {
+  display: inline-block;
+  margin-left: 3%; }
+
+.nav-item {
+  color: #ababab;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.4em;
+  text-decoration: none;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s; }
+
+.nav-item:hover {
+  color: #FFF; }
+
+#contact {
+  max-width: 1300px;
+  margin: 0px auto; }
+
+.tel {
+  position: absolute;
+  right: 40px;
+  top: 35px;
+  letter-spacing: 0.13em;
+  color: #DDD; }
+
+.number {
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFF; }
+
+.intro {
+  width: 1200px;
+  margin: 0px auto; }
+
+.img {
+  width: inherit; }
+
+.center {
+  text-align: center; }
+
+.main-content {
+  max-width: 1300px;
+  margin: 0px auto;
+  width: 1200px;
+  margin: 0px auto;
+  color: #a2e0ff;
+  background-color: #008fd5;
+  width: 100%;
+  margin-top: 100px; }
+
+.inner {
+  margin: 0 auto;
+  min-width: 1200px;
+  height: 420px;
+  text-align: center; }
+
+.box {
+  width: 30%;
+  float: left;
+  cursor: pointer;
+  height: 380px;
+  padding: 20px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  /* For IE8 and earlier */ }
+
+.box h3 {
+  font-size: 24px;
+  padding: 15px 0 5px 0;
+  margin-top: 70px; }
+
+.clear {
+  clear: both; }
+
+.welcome, .specialize, .collection {
+  background-position: center 10px;
+  background-repeat: no-repeat; }
+
+.welcome {
+  background-image: url("Images/wrench.png"); }
+
+.specialize {
+  background-image: url("Images/wheel-icon.png"); }
+
+.collection {
+  background-image: url("Images/car_icon.png"); }
+
+#services {
+  max-width: 1300px;
+  margin: 0px auto;
+  border-bottom: 1px solid #DDD;
+  padding-bottom: 10px;
+  color: #c4ecec;
+  background-color: #30beda; }
+  #services font {
+    size: 11px; }
+
+#pricing {
+  max-width: 1300px;
+  margin: 0px auto;
+  color: #FFF;
+  background: url("Images/audi.png") no-repeat; }
+  #pricing font {
+    weight: 300;
+    size: 18px; }
+
+.pricing-container {
+  padding: 20px;
+  width: 1000px;
+  margin: 0px auto; }
+
+.pricing-description {
+  color: #FFF;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  list-style-type: none;
+  padding-top: 20px; }
+
+.pricing-line {
+  border-bottom: 1px solid #ababab;
+  list-style-type: none;
+  width: 90%;
+  margin: 0px auto;
+  padding: 25px 0px; }
+
+.price {
+  color: #FFF;
+  font-size: 20px;
+  width: 10%;
+  text-align: right; }
+
+.services-container {
+  list-style-type: none;
+  color: #FFF;
+  padding: 0px;
+  padding: 10px 0px; }
+
+.services-item {
+  margin: 10px;
+  line-height: 16px; }
+
+.initial-words {
+  height: 100px;
+  width: 1230px; }
+
+.heading {
+  float: left;
+  width: 60%;
+  padding: 45px 0px; }
+
+#initial-description {
+  line-height: 30px;
+  font-size: 20px;
+  float: left; }
+
+.content {
+  width: 1300px;
+  margin: 100px auto 0px auto; }
+
+.window {
+  width: 260px;
+  height: 400px;
+  float: left;
+  position: relative;
+  overflow: hidden; }
+
+.window-text {
+  width: 240px;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin-top: 15px;
+  padding: 10px; }
+
+.overlay {
+  position: absolute;
+  background: #000;
+  width: 1300px;
+  height: 100px;
+  top: 500px;
+  text-align: center;
+  color: #FFF; }
+
+#contact-us {
+  background-color: #FFF;
+  color: #abababa; }
+
+.content-box {
+  width: 100%;
+  height: 500px; }
+
+#map {
+  height: 500px;
+  width: 650px;
+  float: right;
+  position: relative; }
+
+.contact-details {
+  min-width: 900px;
+  width: 40%;
+  float: left;
+  position: absolute;
+  z-index: 8;
+  height: 500px;
+  background: url("Images/contact-us.png") no-repeat; }
+
+.inner-contact-detail {
+  color: #C8D7E5;
+  margin: 100px; }
+
+.contact-text {
+  font-size: 20px;
+  padding-left: 10px; }
+
+.contact-image {
+  width: 60px;
+  padding-right: 10px; }
+
+.address {
+  font-size: 18px;
+  padding-left: 10px; }
+
+.services-icon {
+  width: 200px; }
+
+.footer {
+  bottom: 0px; }
+
+.inner-footer {
+  position: absolute;
+  width: 100%;
+  background: #000;
+  text-align: right; }
+
+.email {
+  color: #c7c780;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s; }
+
+.email:hover {
+  color: #FFF; }
+
+#icons {
+  width: 30%;
+  float: left; }
+
+#outer {
+  width: 100%;
+  height: 420px;
+  display: none; }
+
+.fl {
+  float: left; }
+
+.larger {
+  width: 40%; }
+
+.smaller {
+  width: 25%; }
+
+.full {
+  display: none; }
+
+.summary {
+  max-width: 325px;
+  margin: 20px auto; }
+
+ /* This comment is
+* several lines long.
+* since it uses the CSS comment syntax,
+* it will appear in the CSS output. */
